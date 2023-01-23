@@ -26,7 +26,7 @@ submit.onclick = function (e) {
   res.innerHTML += `<span> Площа фасадів: ${
     Math.round(result * 1000) / 1000
   } м<sup>2</sup>  </span>`;
-  res.innerHTML += `<span> Ціна: ${Math.ceil(calcPrice)} </span>`;
+  res.innerHTML += `<span> Ціна: ${Math.ceil(calcPrice)} грн. </span>`;
 };
 
 
